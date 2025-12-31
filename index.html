@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The complete Mon Bazou handbook. Interactive map, bolt sizes, Konig tuning guide, and NPC friendship rewards. Updated for 2025.">
+    <meta name="description" content="The complete Mon Bazou handbook. Interactive map, bolt sizes, Konig tuning guide, syrup pipeline layouts, and NPC friendship rewards. Updated for 2025.">
     <link rel="canonical" href="https://monbazou.org/">
     <title>Mon Bazou Ultimate Handbook: Map, Tuning & Money Guide</title>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TE369E4R3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4TE369E4R3');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TE369E4R3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4TE369E4R3');
+    </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
-
     <style>
-        /* --- MAPLE GARAGE THEME VARIABLES (UNCHANGED) --- */
+        /* --- MAPLE GARAGE THEME VARIABLES --- */
         :root {
             --primary: #D94436;      /* Maple Red */
             --primary-hover: #b9352a;
@@ -58,7 +55,7 @@
         .btn:hover { background-color: var(--primary-hover); }
         .section-padding { padding: 60px 0; }
 
-        /* --- HEADER (Updated Links) --- */
+        /* --- HEADER --- */
         header {
             background-color: var(--secondary);
             color: white;
@@ -78,13 +75,13 @@
             background-color: var(--secondary);
             color: white;
             text-align: center;
-            padding: 80px 20px 120px; /* Extra bottom padding for overlap */
+            padding: 80px 20px 120px;
             background-image: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9));
         }
         .hero h1 { font-size: 2.8rem; margin-bottom: 0.5rem; }
         .hero p { color: var(--text-light); font-size: 1.1rem; margin-bottom: 30px; }
 
-        /* --- MAIN GRID (The Hub - UPDATED) --- */
+        /* --- MAIN GRID (The Hub) --- */
         .hub-section { margin-top: -80px; margin-bottom: 60px; }
         
         .grid-container {
@@ -110,7 +107,7 @@
         .card h3 { margin-bottom: 0; color: var(--secondary); font-size: 1.3rem; }
         .card p { font-size: 0.9rem; color: #666; margin-bottom: 20px; flex-grow: 1; }
         
-        /* Specific Card Borders colors (Optional Polish) */
+        /* Specific Card Borders */
         .card.money { border-top-color: #27ae60; }
         .card.tuning { border-top-color: #d35400; }
         .card.map { border-top-color: #2980b9; }
@@ -129,6 +126,20 @@
             text-align: center;
         }
 
+        /* --- ADSENSE CONTAINER (CLS Protection) --- */
+        .ad-container {
+            text-align: center; 
+            padding: 20px; 
+            background: #f0f0f0; 
+            margin-bottom: 40px; 
+            color: #888; 
+            border: 1px dashed #ccc;
+            min-height: 280px; /* Prevents layout shift before ad loads */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         /* --- FAQ & FOOTER --- */
         .faq-section { background-color: white; border-top: 1px solid #eee; }
         .faq-item { border-bottom: 1px solid #eee; padding: 15px 0; }
@@ -141,13 +152,14 @@
             padding: 40px 0;
             font-size: 0.9rem;
         }
+        footer a:hover { color: var(--accent); }
 
         /* --- MOBILE --- */
         @media (max-width: 768px) {
             .hero h1 { font-size: 2rem; }
             .feature-row { flex-direction: column; text-align: center; }
             .feature-row.reverse { flex-direction: column; }
-            .nav-links { display: none; } /* Hide top nav on mobile, rely on grid */
+            .nav-links { display: none; }
         }
     </style>
 </head>
@@ -160,7 +172,7 @@
                 <a href="money-guide.html">Money</a>
                 <a href="konig-tuning.html">Tuning</a>
                 <a href="map-locations.html">Map</a>
-                <a href="bolt-sizes.html">Tools</a>
+                <a href="syrup-guide.html">Syrup</a>
             </nav>
         </div>
     </header>
@@ -200,7 +212,7 @@
                         <h3>Konig Tuning</h3>
                     </div>
                     <p>Best gear ratios, turbo setup, and suspension for drifting.</p>
-                    <a href="konig-tuning.html" class="btn">Tuning Specs</a>
+                    <a href="konig-tuning-guide.html" class="btn">Tuning Specs</a>
                 </div>
 
                 <div class="card">
@@ -210,6 +222,15 @@
                     </div>
                     <p>Cheat sheet for every wrench size (Wheels, Seats, Engine).</p>
                     <a href="bolt-sizes.html" class="btn">Cheat Sheet</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-icon">🍁</span>
+                        <h3>Sugar Shack</h3>
+                    </div>
+                    <p>Tubing layouts and Reverse Osmosis setup guide.</p>
+                    <a href="syrup-guide.html" class="btn">Setup Pipeline</a>
                 </div>
 
                 <div class="card">
@@ -227,7 +248,16 @@
                         <h3>NPC Rewards</h3>
                     </div>
                     <p>Unlock the Race Track & Bolt Cutters by giving the right gifts.</p>
-                    <a href="npc-guide.html" class="btn">Gift Guide</a>
+                    <a href="npc-friendship-guide.html" class="btn">Gift Guide</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-icon">🛻</span>
+                        <h3>OlTruck Repair</h3>
+                    </div>
+                    <p>Parts list to fix the broken pickup truck.</p>
+                    <a href="oltruck-guide.html" class="btn">Repair Guide</a>
                 </div>
 
                 <div class="card">
@@ -240,13 +270,13 @@
                 </div>
 
                 <div class="card">
-            <div class="card-header">
-                <span class="card-icon">🛻</span>
-                <h3>OlTruck Repair</h3>
-            </div>
-            <p>Parts list to fix the broken pickup truck.</p>
-            <a href="oltruck-guide.html" class="btn">Repair Guide</a>
-        </div>
+                    <div class="card-header">
+                        <span class="card-icon">💾</span>
+                        <h3>Save Editor</h3>
+                    </div>
+                    <p>How to edit your save file for infinite money.</p>
+                    <a href="cheats-save-editor.html" class="btn">Cheats Guide</a>
+                </div>
 
             </div>
         </div>
@@ -262,7 +292,7 @@
                     <li><strong>Air/Fuel Ratio Tuning</strong> (Don't blow your engine)</li>
                     <li><strong>Drift vs. Grip Suspension</strong></li>
                 </ul>
-                <a href="konig-tuning.html" class="btn">Start Tuning &rarr;</a>
+                <a href="konig-tuning-guide.html" class="btn">Start Tuning &rarr;</a>
             </div>
             <div class="feature-visual">
                 <div class="visual-box">
@@ -274,8 +304,8 @@
         </div>
     </section>
 
-    <div class="container" style="text-align:center; padding: 20px; background:#f0f0f0; margin-bottom: 40px; color:#888; border:1px dashed #ccc;">
-        ADVERTISEMENT
+    <div class="container ad-container">
+        ADVERTISEMENT SPACE
     </div>
 
     <section class="container section-padding" style="border-top: 1px solid #eee;">
@@ -322,10 +352,15 @@
         <div class="container">
             <p>&copy; 2025 Mon Bazou Handbook.</p>
             <p style="margin-top: 10px;">
-                <a href="index.html">Home</a> | <a href="map-locations.html">Map</a> | <a href="bolt-sizes.html">Tools</a> | <a href="privacy.html">Privacy</a>
+                <a href="index.html">Home</a> | 
+                <a href="map-locations.html">Map</a> | 
+                <a href="bolt-sizes.html">Tools</a> | 
+                <a href="syrup-guide.html">Syrup</a> | 
+                <a href="cheats-save-editor.html">Cheats</a>
             </p>
         </div>
     </footer>
 
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"c86c9b32462443c4af02508b14350746","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>

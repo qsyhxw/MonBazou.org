@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mon Bazou Cheats and Save Editor Guide. How to edit your save file for infinite money, max friendship, and unlock all items.">
+    <link rel="canonical" href="https://monbazou.org/cheats-save-editor">
+    
+    <title>Mon Bazou Cheats & Save Editor (Infinite Money Guide)</title>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TE369E4R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4TE369E4R3');
+</script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- THEME VARIABLES --- */
+        :root {
+            --primary: #D94436;
+            --secondary: #2C3E50;
+            --bg-body: #F4F4F9;
+            --bg-card: #FFFFFF;
+            --text-main: #333333;
+            --accent: #F1C40F;
+        }
+
+        /* --- BASE STYLES --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Roboto', sans-serif; background-color: var(--bg-body); color: var(--text-main); line-height: 1.8; }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; margin-bottom: 1rem; color: var(--secondary); }
+        h2 { border-bottom: 3px solid var(--primary); padding-bottom: 10px; display: inline-block; margin-top: 40px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        a { text-decoration: none; color: inherit; }
+
+        /* --- HEADER --- */
+        header { background-color: var(--secondary); color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Oswald', sans-serif; font-size: 1.5rem; color: var(--accent); }
+        .nav-links a { margin-left: 20px; font-weight: 500; font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+        .nav-links a:hover, .nav-links a.active { color: var(--primary); opacity: 1; }
+
+        /* --- CONTENT STYLES --- */
+        .content-card { background: white; padding: 40px; margin-top: 30px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        
+        /* Code Box */
+        .code-box { 
+            background: #2d2d2d; 
+            color: #f8f8f2; 
+            padding: 15px; 
+            border-radius: 4px; 
+            font-family: 'Courier New', monospace; 
+            font-size: 0.9rem; 
+            overflow-x: auto;
+            margin: 15px 0;
+            border-left: 4px solid var(--accent);
+        }
+        
+        /* Warning Box */
+        .warning-box { background: #fadbd8; border-left: 4px solid #c0392b; color: #7b241c; padding: 15px; margin: 20px 0; }
+
+        /* Step List */
+        .step-list { counter-reset: step; list-style: none; padding: 0; }
+        .step-list li { position: relative; padding-left: 40px; margin-bottom: 15px; }
+        .step-list li::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute; left: 0; top: 0;
+            background: var(--secondary); color: white;
+            width: 28px; height: 28px; text-align: center; line-height: 28px; border-radius: 50%;
+            font-weight: bold; font-size: 0.9rem;
+        }
+
+        /* AdSlot */
+        .ad-slot { background: #eee; text-align: center; padding: 20px; margin: 30px 0; border: 1px dashed #ccc; color: #888; font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Edit Save File in Mon Bazou",
+      "step": [
+        { "@type": "HowToStep", "text": "Locate AppData/LocalLow/Santa Goat folder." },
+        { "@type": "HowToStep", "text": "Open SaveSlot.json with Notepad." },
+        { "@type": "HowToStep", "text": "Change PlayerMoney value." }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+            <nav class="nav-links">
+                <a href="money-guide.html">Money</a>
+                <a href="map-locations.html">Map</a>
+                <a href="cheats.html" class="active">Cheats</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-card">
+            
+            <div style="font-size: 0.9rem; text-transform: uppercase; color: #888; margin-bottom: 10px;">
+                <a href="index.html">Home</a> / Guides
+            </div>
+
+            <h1>Mon Bazou Cheats & Save Editor Guide</h1>
+            <p>Mon Bazou does not have built-in console commands (like press `~`). However, the save files are simple text files. This means you can easily edit them to get <strong>Infinite Money</strong>, max friendship, or unlock items.</p>
+
+            <div class="warning-box">
+                <strong>Backup Warning:</strong> Always make a copy of your save file before editing! If you make a typo, the game might crash or reset your progress.
+            </div>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>Method 1: Manual Save Editing (No Mods)</h2>
+            <p>This is the safest method. You don't need to download anything.</p>
+            
+            <ul class="step-list">
+                <li>
+                    <strong>Locate your Save File:</strong><br>
+                    Press <code>Win + R</code>, type <code>%appdata%</code>, and hit Enter. Go back one folder level to <code>AppData</code>, then navigate to:
+                    <div class="code-box">AppData\LocalLow\Santa Goat\Mon Bazou\</div>
+                </li>
+                <li>
+                    <strong>Open the File:</strong><br>
+                    Find <code>SaveSlot_1.json</code> (or whichever slot you use). Right-click and open with <strong>Notepad</strong>.
+                </li>
+                <li>
+                    <strong>Edit "PlayerMoney":</strong><br>
+                    Press <code>Ctrl + F</code> and search for <code>PlayerMoney</code>. Change the number next to it.
+                    <div class="code-box">"PlayerMoney": 999999.0,</div>
+                </li>
+                <li>
+                    <strong>Edit Friendship:</strong><br>
+                    Search for <code>Friendship_Leo</code> or other names. Set the value to <strong>100.0</strong> to unlock rewards instantly.
+                </li>
+                <li>
+                    <strong>Save and Play:</strong><br>
+                    Save the text file. Launch the game. Enjoy being rich.
+                </li>
+            </ul>
+
+            <h2>Method 2: Save Editor Tool (Easier)</h2>
+            <p>If you don't like editing text files, the community has created a tool that does it for you.</p>
+            <p>We recommend the <strong>Mon Bazou Save Editor</strong> on Nexus Mods. It provides a clean interface to change stats, unlock cars, and fix bugs.</p>
+            <p>
+                <a href="https://www.nexusmods.com/monbazou" target="_blank" class="btn" style="background:#da8b26;">Visit Nexus Mods &rarr;</a>
+            </p>
+            <p style="font-size:0.8rem; color:#666; margin-top:5px;">*External link. We are not affiliated with Nexus Mods.</p>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>Common Cheat Variables</h2>
+            <p>Here are the variable names you can search for in the JSON file:</p>
+            <table style="width:100%; border-collapse:collapse; margin-top:10px;">
+                <tr style="background:#f1f1f1; text-align:left;">
+                    <th style="padding:10px;">Variable Name</th>
+                    <th style="padding:10px;">Effect</th>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border-bottom:1px solid #eee;"><code>PlayerMoney</code></td>
+                    <td style="padding:10px; border-bottom:1px solid #eee;">Cash in hand.</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border-bottom:1px solid #eee;"><code>Friendship_Leo</code></td>
+                    <td style="padding:10px; border-bottom:1px solid #eee;">Leo's trust level (Unlock Race Track).</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border-bottom:1px solid #eee;"><code>HasElectricity</code></td>
+                    <td style="padding:10px; border-bottom:1px solid #eee;">Set to <code>true</code> to bypass $2500 fee.</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <footer style="background-color: var(--secondary); color: #999; text-align: center; padding: 40px 0; margin-top: 60px; font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2025 Mon Bazou Handbook.</p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Home</a> | <a href="cheats.html">Cheats Guide</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

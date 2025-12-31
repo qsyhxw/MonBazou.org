@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The ultimate Mon Bazou Money Guide (2025). Learn the best ways to make money, from selling pine logs to managing a massive maple syrup empire.">
+    <title>Mon Bazou Money Guide: Wood, Syrup & Pizza Profits</title>
+
+  <link rel="canonical" href="https://monbazou.org/money-guide">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- MAPLE GARAGE THEME VARIABLES (Same as Index) --- */
+        :root {
+            --primary: #D94436;      /* Maple Red */
+            --primary-hover: #b9352a;
+            --secondary: #2C3E50;    /* Tire Rubber */
+            --bg-body: #F4F4F9;      /* Concrete Grey */
+            --bg-card: #FFFFFF;      /* White */
+            --text-main: #333333;    /* Oil Black */
+            --text-light: #666666;   
+            --accent: #F1C40F;       /* Toolbox Yellow */
+            --border-color: #dddddd;
+        }
+
+        /* --- RESET & BASE STYLES --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.8; /* Increased for readability */
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Oswald', sans-serif;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+            line-height: 1.3;
+        }
+        h2 { 
+            margin-top: 2.5rem; 
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        h3 { margin-top: 1.5rem; font-size: 1.3rem; }
+        a { text-decoration: none; color: inherit; }
+        p { margin-bottom: 1.2rem; }
+        ul { margin-bottom: 1.2rem; list-style-position: inside; }
+        li { margin-bottom: 0.5rem; }
+
+        /* --- LAYOUT UTILS --- */
+        .container {
+            max-width: 900px; /* Narrower for reading focus */
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.3s;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+        .btn:hover { background-color: var(--primary-hover); }
+
+        /* --- HEADER (Same as Index) --- */
+        header {
+            background-color: var(--secondary);
+            color: white;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Oswald', sans-serif; font-size: 1.5rem; color: var(--accent); }
+        .nav-links a { margin-left: 20px; font-weight: 500; font-size: 0.9rem; opacity: 0.8; }
+        .nav-links a:hover, .nav-links a.active { color: var(--primary); opacity: 1; }
+
+        /* --- ARTICLE HEADER --- */
+        .article-header {
+            background-color: white;
+            padding: 60px 0 40px;
+            border-bottom: 1px solid var(--border-color);
+            text-align: center;
+        }
+        .breadcrumb { font-size: 0.9rem; color: var(--text-light); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .article-header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .meta-info { font-size: 0.9rem; color: var(--text-light); font-style: italic; }
+
+        /* --- TABLE OF CONTENTS --- */
+        .toc-box {
+            background: #fdfdfd;
+            border: 1px solid #eee;
+            border-left: 4px solid var(--secondary);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        .toc-title { font-family: 'Oswald', sans-serif; font-weight: bold; margin-bottom: 10px; display: block; }
+        .toc-list { list-style: none; margin: 0; padding: 0; column-count: 2; } /* 2 columns on desktop */
+        .toc-list li { margin-bottom: 5px; }
+        .toc-list a { color: var(--primary); font-weight: 500; font-size: 0.95rem; }
+        .toc-list a:hover { text-decoration: underline; }
+
+        /* --- CONTENT STYLES --- */
+        .content-card {
+            background: white;
+            padding: 40px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+        
+        /* Highlight Box for Tips */
+        .highlight-box {
+            background-color: rgba(241, 196, 15, 0.1); /* Low opacity yellow */
+            border-left: 4px solid var(--accent);
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+        .highlight-box strong { color: #d35400; }
+
+        /* Data Tables */
+        .profit-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 0.95rem;
+        }
+        .profit-table th {
+            background-color: var(--secondary);
+            color: white;
+            text-align: left;
+            padding: 12px 15px;
+        }
+        .profit-table td {
+            border-bottom: 1px solid #eee;
+            padding: 12px 15px;
+        }
+        .profit-table tr:nth-child(even) { background-color: #f9f9f9; }
+        .profit-table tr.best-value { border-left: 4px solid var(--primary); background-color: rgba(217, 68, 54, 0.05); }
+
+        /* --- ADSENSE PLACEHOLDER --- */
+        .ad-slot-container {
+            background-color: #e9e9e9;
+            border: 1px dashed #ccc;
+            text-align: center;
+            padding: 15px;
+            margin: 40px 0;
+            color: #777;
+            font-size: 0.8rem;
+        }
+        .ad-label { display: block; font-size: 10px; color: #999; margin-bottom: 5px; text-transform: uppercase; }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: var(--secondary);
+            color: #999;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.9rem;
+            margin-top: 60px;
+        }
+        footer a { color: var(--accent); }
+
+        /* --- MOBILE RESPONSIVE --- */
+        @media (max-width: 768px) {
+            .nav-links { display: none; } /* Simplified nav for MVP */
+            .article-header h1 { font-size: 2rem; }
+            .content-card { padding: 20px; }
+            .toc-list { column-count: 1; }
+            .profit-table { display: block; overflow-x: auto; white-space: nowrap; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Mon Bazou Money Guide: Best Ways to Make Money",
+      "image": [
+        "https://your-domain.com/images/mon-bazou-money-guide-cover.jpg"
+      ],
+      "datePublished": "2025-01-05T08:00:00+08:00",
+      "dateModified": "2025-01-05T09:20:00+08:00",
+      "author": [{
+          "@type": "Person",
+          "name": "Jason",
+          "url": "https://your-domain.com/about"
+        }]
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+            <nav class="nav-links">
+                <a href="money-guide.html" class="active">Money Guide</a>
+                <a href="phone-numbers.html">Phone Book</a>
+                <a href="power-grid.html">Power Grid</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="article-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">&larr; Back to Home</a> / Guides
+            </div>
+            <h1>Mon Bazou Money Guide: From Wood to Syrup</h1>
+            <p class="meta-info">Updated for 2025 • Version 0.34.x Compatible</p>
+        </div>
+    </section>
+
+    <div class="container">
+        
+        <div class="toc-box">
+            <span class="toc-title">Guide Contents</span>
+            <ul class="toc-list">
+                <li><a href="#early-game">1. Early Game: Wood & Pizza</a></li>
+                <li><a href="#mid-game">2. Mid Game: Firewood & Scrap</a></li>
+                <li><a href="#syrup">3. Late Game: Maple Syrup Empire</a></li>
+                <li><a href="#cannabis">4. Cannabis Farming (High Risk)</a></li>
+                <li><a href="#summary">5. Earnings Comparison Table</a></li>
+            </ul>
+        </div>
+
+        <div class="content-card">
+            
+            <p class="intro">
+                Running low on cash for your Konig build? In Mon Bazou, money doesn't grow on trees—but it does flow out of them. Whether you're just starting with a rusty axe or managing a massive sugar shack operation, this guide covers the most efficient ways to earn cash.
+            </p>
+
+            <h2 id="early-game">1. Early Game: The Grind (Active Income)</h2>
+            <p>When you first start, you need cash for gas, food, and basic tools. Do not try to start a syrup empire yet; the setup costs are too high. Focus on these quick cash grabs.</p>
+
+            <h3>Woodcutting (Selling Logs)</h3>
+            <p>The most reliable way to make your first $1,000. You don't need to split the wood yet; just load raw logs into your truck/ATV and drive to the <strong>Sawmill</strong>.</p>
+            <ul>
+                <li><strong>Location:</strong> The Sawmill (Check map for green circle drop-off).</li>
+                <li><strong>Pine Trees (Best Value):</strong> Sell for <strong>$15 per log</strong>.</li>
+                <li><strong>Maple Trees:</strong> Sell for $10 per log. <em style="color:#d35400;">(Warning: Save these for syrup tapping later!)</em></li>
+                <li><strong>Birch Trees:</strong> Sell for $8 per log.</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Pro Tip:</strong> Focus on cutting Pine trees (the tall, skinny ones) early on. They sell for 50% more than Maple trees.
+            </div>
+
+            <h3>Pizza Delivery</h3>
+            <p>Once your vehicle runs, you can work for the pizza shop in town. It opens around 5-6 PM.</p>
+            <ul>
+                <li><strong>Payout:</strong> Approximately <strong>$50 - $100 per shift</strong> (Base pay + tips).</li>
+                <li><strong>Note:</strong> Tips depend on speed. Don't expect GTA-level payouts here; this is just for gas money.</li>
+            </ul>
+
+            <div class="ad-slot-container">
+                <span class="ad-label">Advertisement</span>
+                [AdSense In-Article Code]
+            </div>
+
+            <h2 id="mid-game">2. Mid Game: Stability</h2>
+
+            <h3>Selling Firewood to Francis</h3>
+            <p>Once you have a Wood Splitter, stop driving to the Sawmill. Sell split firewood to your brother, Francis, who lives near your starting house.</p>
+            <ul>
+                <li><strong>Efficiency:</strong> 1 Log = 2 Firewood pieces.</li>
+                <li><strong>Limit:</strong> Francis buys about <strong>60 pieces per day</strong>.</li>
+                <li><strong>Strategy:</strong> Use this to get rid of low-value Birch wood or scrap wood near your base.</li>
+            </ul>
+
+            <h3>Scrapyard (Jim's U-Pull)</h3>
+            <p>Drag old car parts (rusty doors, bumpers) into the dumpster outside the Scrapyard gate. Payout is based on weight. Heavy parts = more cash.</p>
+
+            <h2 id="syrup">3. Late Game: The Maple Syrup Empire</h2>
+            
+            <p>Syrup is the king of Mon Bazou. It provides a unique "weekly paycheck" system that stabilizes your economy.</p>
+
+            <h3>The Barrel Economy</h3>
+            <p>You don't get paid all at once. The Federation pays you a pension.</p>
+            <table class="profit-table">
+                <tr>
+                    <th>Payment Type</th>
+                    <th>Amount</th>
+                    <th>Timing</th>
+                </tr>
+                <tr>
+                    <td>Upfront Payment</td>
+                    <td>$200</td>
+                    <td>Immediate (Drop-off)</td>
+                </tr>
+                <tr class="best-value">
+                    <td>Weekly Pension</td>
+                    <td>$200 / week</td>
+                    <td>Every Sunday (for 5 weeks)</td>
+                </tr>
+                <tr>
+                    <td><strong>Total per Barrel</strong></td>
+                    <td><strong>$1,200</strong></td>
+                    <td><strong>Over 5 weeks</strong></td>
+                </tr>
+            </table>
+            
+            <div class="highlight-box">
+                <strong>Why it's OP:</strong> If you sell 10 barrels this week, you receive a <strong>$2,000 paycheck every Sunday</strong> for the next month, even if you do nothing.
+            </div>
+
+            <div class="ad-slot-container">
+                <span class="ad-label">Advertisement</span>
+                [AdSense In-Article Code]
+            </div>
+
+            <h2 id="cannabis">4. Cannabis Farming (High Risk)</h2>
+            <p>Once you unlock the Barn (check <a href="#" style="color:var(--primary); text-decoration:underline;">Phone Book</a> for dealers), you can sell in bulk.</p>
+            <ul>
+                <li><strong>Goal:</strong> Create a "Huge Cannabis Pack" (2,700 joints).</li>
+                <li><strong>Payout:</strong> <strong>$10,000 flat</strong> per pack.</li>
+                <li><strong>Requirement:</strong> Requires the Bunker, lights, and planters. It's a huge investment but offers the biggest single lump-sum payment in the game.</li>
+            </ul>
+
+            <h2 id="summary">5. Earnings Summary</h2>
+            <p>Which method should you focus on right now?</p>
+
+            <table class="profit-table">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Type</th>
+                        <th>Est. Earnings</th>
+                        <th>Best For</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Pine Logs</strong></td>
+                        <td>Active</td>
+                        <td>$15 / log</td>
+                        <td>Day 1-7 Cash</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pizza</strong></td>
+                        <td>Active</td>
+                        <td>~$60 / night</td>
+                        <td>Buying Poutine/Gas</td>
+                    </tr>
+                    <tr class="best-value">
+                        <td><strong>Syrup Barrel</strong></td>
+                        <td>Passive</td>
+                        <td>$1,200 total</td>
+                        <td>Long-term Wealth</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cannabis</strong></td>
+                        <td>Passive</td>
+                        <td>$10,000 / pack</td>
+                        <td>Late Game Upgrades</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mon Bazou Handbook. Not affiliated with Santa Goat.</p>
+            <p style="margin-top: 10px; font-size: 0.8rem; color: #777;">
+                Disclaimer: All references to "Cannabis" or "Weed" refer strictly to in-game mechanics within the video game Mon Bazou.
+            </p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Home</a> | <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+```

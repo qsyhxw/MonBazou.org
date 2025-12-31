@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultimate Mon Bazou Sugar Shack Guide. How to set up sap tubing, use the Reverse Osmosis machine, and automate your maple syrup production.">
+    <link rel="canonical" href="https://monbazou.org/syrup-guide">
+    
+    <title>Mon Bazou Sugar Shack Guide: Pipeline & Setup</title>
+
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TE369E4R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4TE369E4R3');
+</script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- THEME VARIABLES --- */
+        :root {
+            --primary: #D94436;
+            --secondary: #2C3E50;
+            --bg-body: #F4F4F9;
+            --bg-card: #FFFFFF;
+            --text-main: #333333;
+            --accent: #F1C40F;
+        }
+
+        /* --- BASE STYLES --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Roboto', sans-serif; background-color: var(--bg-body); color: var(--text-main); line-height: 1.8; }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; margin-bottom: 1rem; color: var(--secondary); }
+        h2 { border-bottom: 3px solid var(--primary); padding-bottom: 10px; display: inline-block; margin-top: 40px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        a { text-decoration: none; color: inherit; }
+
+        /* --- HEADER --- */
+        header { background-color: var(--secondary); color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Oswald', sans-serif; font-size: 1.5rem; color: var(--accent); }
+        .nav-links a { margin-left: 20px; font-weight: 500; font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+        .nav-links a:hover, .nav-links a.active { color: var(--primary); opacity: 1; }
+
+        /* --- CONTENT STYLES --- */
+        .content-card { background: white; padding: 40px; margin-top: 30px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        
+        /* Flowchart / Diagram Style */
+        .flow-step { background: #f1f1f1; padding: 15px; margin-bottom: 10px; border-radius: 4px; border-left: 4px solid var(--secondary); }
+        .flow-arrow { text-align: center; font-size: 1.5rem; color: var(--primary); margin: 5px 0; }
+        
+        /* Info Box */
+        .info-box { background: #e8f8f5; border: 1px solid #d1f2eb; color: #148f77; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .info-box strong { color: #0e6251; }
+
+        /* AdSlot */
+        .ad-slot { background: #eee; text-align: center; padding: 20px; margin: 30px 0; border: 1px dashed #ccc; color: #888; font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Setup Maple Syrup Pipeline in Mon Bazou",
+      "step": [
+        { "@type": "HowToStep", "text": "Connect trees with tubing and T-connectors." },
+        { "@type": "HowToStep", "text": "Run main line to the Collection Tank." },
+        { "@type": "HowToStep", "text": "Use Reverse Osmosis to concentrate sap." },
+        { "@type": "HowToStep", "text": "Boil concentrate in the Evaporator." }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+            <nav class="nav-links">
+                <a href="money-guide.html">Money</a>
+                <a href="konig-tuning.html">Konig</a>
+                <a href="syrup-guide.html" class="active">Syrup Guide</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-card">
+            
+            <div style="font-size: 0.9rem; text-transform: uppercase; color: #888; margin-bottom: 10px;">
+                <a href="index.html">Home</a> / Guides
+            </div>
+
+            <h1>Sugar Shack Guide: Tubing & Reverse Osmosis</h1>
+            <p>Making maple syrup is the most complex mechanic in Mon Bazou. It involves plumbing, gravity physics, and heat management. This guide explains how to automate your production line so you can stop carrying buckets and start printing money.</p>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>The Production Pipeline</h2>
+            <p>The goal is to move sap from the tree to the barrel with minimal effort. Here is the optimal flow:</p>
+            
+            <div class="flow-step">
+                <strong>1. The Trees (Spiles & Tubing)</strong><br>
+                Drill a hole in Maple trees. Insert a Spile (Tap). Connect blue tubing to the spiles. Use <strong>T-Connectors</strong> to join multiple trees into one main line.
+            </div>
+            <div class="flow-arrow">⬇️ Gravity Flow</div>
+            
+            <div class="flow-step">
+                <strong>2. Collection Tank (Storage)</strong><br>
+                All tubes should feed into a large tank outside your shack.
+                <br><em>Tip: Place this tank HIGHER than your machines to let gravity do the work.</em>
+            </div>
+            <div class="flow-arrow">⬇️ Pump / Valve</div>
+            
+            <div class="flow-step">
+                <strong>3. Reverse Osmosis (The Secret Weapon)</strong><br>
+                Do not boil raw sap! Pass it through the RO machine first. This removes water and creates "Concentrate".<br>
+                <strong>Benefit:</strong> Reduces boiling time by 50%+. Saves huge amounts of firewood.
+            </div>
+            <div class="flow-arrow">⬇️ Concentrate</div>
+
+            <div class="flow-step">
+                <strong>4. The Evaporator (Boiling)</strong><br>
+                Feed wood into the firebox. Pour Concentrate into the pans. Boil until the temperature hits the sweet spot.
+            </div>
+            <div class="flow-arrow">⬇️ Syrup</div>
+
+            <div class="flow-step">
+                <strong>5. Barrels</strong><br>
+                Pour finished syrup into the big blue barrels to sell. <a href="money-guide.html" style="color:var(--primary);">See Money Guide for payout info.</a>
+            </div>
+
+            <h2>Key Components Explained</h2>
+            
+            <h3>Reverse Osmosis (RO)</h3>
+            <p>You can buy this from the Sugar Shack Federation. It requires electricity (plug it in!).</p>
+            <div class="info-box">
+                <strong>Ratio:</strong> It takes roughly <strong>40 Liters of Sap</strong> to make 1 Liter of Syrup. The RO machine speeds this up by removing the water before you boil.
+            </div>
+
+            <h3>Pumps vs. Gravity</h3>
+            <p>Mon Bazou simulates physics. Fluid flows downhill.</p>
+            <ul>
+                <li><strong>Gravity:</strong> Free. Reliable. Just put your tank on a hill.</li>
+                <li><strong>Electric Pump:</strong> Needed if you build your tank on flat ground or need to push sap <em>up</em> into the evaporator.</li>
+            </ul>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>Common Problems</h2>
+            <h3>"Sap isn't flowing!"</h3>
+            <p>Check your T-Connectors. Are they twisted? Is the tank full? Is the valve open?</p>
+            
+            <h3>"The Evaporator is cold."</h3>
+            <p>You need to keep adding firewood. Use the <a href="oltruck-guide.html" style="color:var(--primary);">OlTruck</a> to haul logs efficiently.</p>
+
+        </div>
+    </div>
+
+    <footer style="background-color: var(--secondary); color: #999; text-align: center; padding: 40px 0; margin-top: 60px; font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2025 Mon Bazou Handbook.</p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Home</a> | <a href="syrup-guide.html">Syrup Guide</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

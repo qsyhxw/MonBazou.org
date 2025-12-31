@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultimate Mon Bazou Konig Tuning Guide 2025. Best gear ratios, turbo kit installation, ECU tuning for AFR, and suspension setups for drift vs racing.">
+    <title>Mon Bazou Konig Tuning Guide: Turbo, Gears & Suspension</title>
+
+  <link rel="canonical" href="https://monbazou.org/konig-tuning-guide">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- THEME VARIABLES --- */
+        :root {
+            --primary: #D94436;
+            --primary-hover: #b9352a;
+            --secondary: #2C3E50;
+            --bg-body: #F4F4F9;
+            --bg-card: #FFFFFF;
+            --text-main: #333333;
+            --accent: #F1C40F;
+        }
+
+        /* --- BASE STYLES --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Roboto', sans-serif; background-color: var(--bg-body); color: var(--text-main); line-height: 1.8; }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; margin-bottom: 1rem; color: var(--secondary); }
+        h2 { border-bottom: 3px solid var(--primary); padding-bottom: 10px; display: inline-block; margin-top: 40px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        a { text-decoration: none; color: inherit; }
+
+        /* --- HEADER --- */
+        header { background-color: var(--secondary); color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Oswald', sans-serif; font-size: 1.5rem; color: var(--accent); }
+        .nav-links a { margin-left: 20px; font-weight: 500; font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+        .nav-links a:hover, .nav-links a.active { color: var(--primary); opacity: 1; }
+
+        /* --- CONTENT STYLES --- */
+        .content-card { background: white; padding: 40px; margin-top: 30px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        
+        /* Spec Table */
+        .spec-table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.95rem; }
+        .spec-table th { background: var(--secondary); color: white; padding: 10px; text-align: left; }
+        .spec-table td { padding: 10px; border-bottom: 1px solid #eee; }
+        .spec-table tr:nth-child(even) { background-color: #f9f9f9; }
+        
+        /* Configuration Box */
+        .config-box { background: #f8f9fa; border: 1px solid #ddd; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .config-title { font-weight: bold; color: var(--primary); font-family: 'Oswald', sans-serif; text-transform: uppercase; margin-bottom: 10px; display: block; }
+
+        /* AdSlot */
+        .ad-slot { background: #eee; text-align: center; padding: 20px; margin: 30px 0; border: 1px dashed #ccc; color: #888; font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Tune the Konig in Mon Bazou",
+      "step": [
+        { "@type": "HowToStep", "text": "Install ECU and Turbo Kit from Parts Store." },
+        { "@type": "HowToStep", "text": "Adjust Air/Fuel Ratio to 13.0 for power." },
+        { "@type": "HowToStep", "text": "Upgrade to Welded Differential for drifting." }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+            <nav class="nav-links">
+                <a href="money-guide.html">Money Guide</a>
+                <a href="npc-guide.html">NPCs</a>
+                <a href="konig-tuning.html" class="active">Konig Tuning</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-card">
+            
+            <div style="font-size: 0.9rem; text-transform: uppercase; color: #888; margin-bottom: 10px;">
+                <a href="index.html">Home</a> / Guides
+            </div>
+
+            <h1>Konig Tuning Guide: Turbo, Gears & Suspension</h1>
+            <p>The Konig is your pride and joy. But in its stock form, it's slow, heavy, and handles like a boat. To dominate the street races, you need to upgrade everything from the intake to the exhaust. This guide covers the essential upgrade path.</p>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>Stage 1: The Essentials</h2>
+            <p>Before you spend $2,000 on a turbo, fix the basics.</p>
+            <ul>
+                <li><strong>Tires:</strong> Stock tires are trash. Buy <strong>Sport Tires</strong> immediately for grip.</li>
+                <li><strong>Weight Reduction:</strong> Remove the spare tire and passenger seats. It's free speed.</li>
+                <li><strong>Differential:</strong> 
+                    <ul>
+                        <li><em>Welded Diff:</em> Cheap, wheels lock together. Best for <strong>Drifting</strong>.</li>
+                        <li><em>LSD (Limited Slip):</em> Expensive. Best for <strong>Racing/Cornering</strong>.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Stage 2: Turbo & ECU (Forced Induction)</h2>
+            <p>The biggest power jump. You can buy the full kit at Roger's Parts Store.</p>
+            <div class="config-box">
+                <span class="config-title">Required Parts</span>
+                <p>Turbo Manifold + Turbocharger + Intercooler + Piping + <strong>ECU</strong>.</p>
+                <p style="font-size:0.9rem; color:#666; margin-top:5px;">*Warning: You MUST install the ECU to tune the fuel mix, otherwise the engine may blow.</p>
+            </div>
+            
+            <h3>Tuning Air/Fuel Ratio (AFR)</h3>
+            <p>Use a screwdriver on the Carburetor/ECU screw while the engine is running.</p>
+            <table class="spec-table">
+                <tr>
+                    <th>AFR Value</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>11.0 - 12.0</td>
+                    <td>Rich (Safe, but wasting fuel)</td>
+                </tr>
+                <tr>
+                    <td><strong>12.5 - 13.5</strong></td>
+                    <td><strong>Optimal Power (Target)</strong></td>
+                </tr>
+                <tr>
+                    <td>15.0+</td>
+                    <td>Lean (Overheating Risk)</td>
+                </tr>
+            </table>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>Stage 3: Gear Ratios</h2>
+            <p>Adjust your Final Drive to match your driving style.</p>
+            
+            <div class="config-box">
+                <span class="config-title">Recommended Setups</span>
+                <ul style="list-style: none; padding:0;">
+                    <li style="margin-bottom:10px;"><strong>🚀 Drag / Acceleration:</strong> Ratio 4.20 - 4.50</li>
+                    <li style="margin-bottom:10px;"><strong>⚖️ All-Rounder (Street):</strong> Ratio 3.90 - 4.10</li>
+                    <li style="margin-bottom:10px;"><strong>🛣️ Highway Speed:</strong> Ratio 3.00 - 3.50</li>
+                </ul>
+            </div>
+
+            <h2>Suspension & Stance</h2>
+            <p>Install <strong>Coilovers</strong> to adjust height and camber.</p>
+            <ul>
+                <li><strong>Drift Setup:</strong> Front negative camber (-3.0 to -5.0), stiff rear suspension.</li>
+                <li><strong>Grip Setup:</strong> Mild camber (-1.0 to -2.0), softer damping for bumps.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <footer style="background-color: var(--secondary); color: #999; text-align: center; padding: 40px 0; margin-top: 60px; font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2025 Mon Bazou Handbook.</p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Home</a> | <a href="konig-tuning.html">Konig Guide</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

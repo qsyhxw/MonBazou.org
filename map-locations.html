@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full Mon Bazou Map with marked locations. Find the Junkyard, Secret Race Track, Weed Barn, and hidden Konig parts locations.">
+    <link rel="canonical" href="https://monbazou.org/map-locations">
+    
+    <title>Mon Bazou Map Locations & Hidden Items Guide</title>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TE369E4R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4TE369E4R3');
+</script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- THEME VARIABLES --- */
+        :root {
+            --primary: #D94436;
+            --secondary: #2C3E50;
+            --bg-body: #F4F4F9;
+            --bg-card: #FFFFFF;
+            --text-main: #333333;
+            --accent: #F1C40F;
+        }
+
+        /* --- BASE STYLES --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Roboto', sans-serif; background-color: var(--bg-body); color: var(--text-main); line-height: 1.8; }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; margin-bottom: 1rem; color: var(--secondary); }
+        h2 { border-bottom: 3px solid var(--primary); padding-bottom: 10px; display: inline-block; margin-top: 40px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        a { text-decoration: none; color: inherit; }
+
+        /* --- HEADER --- */
+        header { background-color: var(--secondary); color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Oswald', sans-serif; font-size: 1.5rem; color: var(--accent); }
+        .nav-links a { margin-left: 20px; font-weight: 500; font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+        .nav-links a:hover, .nav-links a.active { color: var(--primary); opacity: 1; }
+
+        /* --- CONTENT STYLES --- */
+        .content-card { background: white; padding: 40px; margin-top: 30px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        
+        /* Map Container */
+        .map-container {
+            width: 100%;
+            background: #eee;
+            border: 2px solid var(--secondary);
+            border-radius: 4px;
+            margin: 20px 0;
+            overflow: hidden;
+            position: relative;
+        }
+        .map-container img { width: 100%; height: auto; display: block; }
+        .map-placeholder-text { padding: 100px 20px; text-align: center; color: #777; font-style: italic; }
+
+        /* Location List */
+        .loc-list { list-style: none; padding: 0; }
+        .loc-item { background: #f9f9f9; border-bottom: 1px solid #eee; padding: 15px; display: flex; flex-direction: column; }
+        .loc-title { font-weight: bold; color: var(--primary); font-family: 'Oswald', sans-serif; font-size: 1.1rem; }
+        .loc-desc { font-size: 0.9rem; color: #555; margin-top: 5px; }
+
+        /* AdSlot */
+        .ad-slot { background: #eee; text-align: center; padding: 20px; margin: 30px 0; border: 1px dashed #ccc; color: #888; font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Map",
+      "name": "Mon Bazou World Map",
+      "mapType": {"@id": "https://schema.org/VenueMap"}
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+            <nav class="nav-links">
+                <a href="money-guide.html">Money</a>
+                <a href="bolt-sizes.html">Bolts</a>
+                <a href="map-locations.html" class="active">Map</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content-card">
+            
+            <div style="font-size: 0.9rem; text-transform: uppercase; color: #888; margin-bottom: 10px;">
+                <a href="index.html">Home</a> / Guides
+            </div>
+
+            <h1>Mon Bazou Map Locations & Secrets</h1>
+            <p>Mon Bazou doesn't have a GPS. Getting lost in the Canadian woods is easy. Use this guide to find key locations like the Junkyard, the Weed Barn, and hidden car parts.</p>
+
+            <div class="map-container">
+                <img src="map-locations.jpg" alt="Mon Bazou Full Map Annotated" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="map-placeholder-text" style="display:none;">
+                    [Map Image Loading...] <br> Please upload 'map-locations.jpg' to the server.
+                </div>
+            </div>
+
+            <div class="ad-slot">ADVERTISEMENT</div>
+
+            <h2>Key Locations (Legend)</h2>
+            <ul class="loc-list">
+                <li class="loc-item">
+                    <span class="loc-title">1. Jim's U-Pull (Scrapyard)</span>
+                    <span class="loc-desc"><strong>Location:</strong> Past the main town, follow signs on the highway.<br><strong>Why go here:</strong> Buy cheap parts, find the Konig Bumper, sell scrap metal. Open 08:00-17:00.</span>
+                </li>
+                <li class="loc-item">
+                    <span class="loc-title">2. The Race Track</span>
+                    <span class="loc-desc"><strong>Location:</strong> Near the main garage intersection. Look for the big gate.<br><strong>Why go here:</strong> Test top speed. Requires <a href="npc-guide.html" style="color:var(--primary);">Key from Leo</a>.</span>
+                </li>
+                <li class="loc-item">
+                    <span class="loc-title">3. Calito's Barn (Weed Dealer)</span>
+                    <span class="loc-desc"><strong>Location:</strong> Hidden in the forest. Look for <strong>Blue Lights</strong> visible at night.<br><strong>Why go here:</strong> Buy seeds, sell packs ($$$).</span>
+                </li>
+                <li class="loc-item">
+                    <span class="loc-title">4. The Sugar Shack</span>
+                    <span class="loc-desc"><strong>Location:</strong> West side forest.<br><strong>Why go here:</strong> Your main base for making Maple Syrup.</span>
+                </li>
+            </ul>
+
+            <h2>Hidden Free Items</h2>
+            <p>Don't buy these parts. Find them for free.</p>
+            <ul>
+                <li><strong>Konig Front Bumper:</strong> Lying on the ground inside the <strong>Scrapyard</strong> (Check near the back fences/piles).</li>
+                <li><strong>Konig Side Skirts:</strong> Found at the <strong>Cottage</strong> (near the lake).</li>
+                <li><strong>Spoiler:</strong> Random spawn at Scrapyard.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <footer style="background-color: var(--secondary); color: #999; text-align: center; padding: 40px 0; margin-top: 60px; font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2025 Mon Bazou Handbook.</p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Home</a> | <a href="map-locations.html">Map Guide</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

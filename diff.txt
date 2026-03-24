@@ -1,0 +1,289 @@
+diff --git a/bolt-sizes.html b/bolt-sizes.html
+index 6d936f2..3c51ee5 100644
+--- a/bolt-sizes.html
++++ b/bolt-sizes.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Complete Mon Bazou Bolt Size Cheat Sheet. Find the right wrench size for Wheels (13mm), Seats (12mm), Steering Wheel (10mm), and engine parts.">
+@@ -94,6 +95,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -267,3 +269,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/cheats-save-editor.html b/cheats-save-editor.html
+index 68fb16b..1e7b7b0 100644
+--- a/cheats-save-editor.html
++++ b/cheats-save-editor.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Mon Bazou Cheats and Save Editor Guide. How to edit your save file for infinite money, max friendship, and unlock all items.">
+@@ -104,6 +105,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -203,3 +205,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/index.html b/index.html
+index acdcd34..0673959 100644
+--- a/index.html
++++ b/index.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Interactive Mon Bazou map, bolt size cheat sheet, Konig tuning setups, money & syrup pipeline guides, plus NPC friendship rewards.">
+@@ -169,6 +170,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <div class="logo">MON BAZOU HANDBOOK</div>
+             <nav class="nav-links">
+@@ -367,3 +369,4 @@
+     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"c86c9b32462443c4af02508b14350746","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+ </body>
+ </html>
++
+diff --git a/konig-tuning-guide.html b/konig-tuning-guide.html
+index 10e7a67..0db9c4d 100644
+--- a/konig-tuning-guide.html
++++ b/konig-tuning-guide.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Ultimate Mon Bazou Konig Tuning Guide 2025. Best gear ratios, turbo kit installation, ECU tuning for AFR, and suspension setups for drift vs racing.">
+@@ -87,6 +88,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -186,3 +188,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/map-locations.html b/map-locations.html
+index 37037f0..61f75c3 100644
+--- a/map-locations.html
++++ b/map-locations.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Full Mon Bazou Map with marked locations. Find the Junkyard, Secret Race Track, Weed Barn, and hidden Konig parts locations.">
+@@ -93,6 +94,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -164,3 +166,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/money-guide.html b/money-guide.html
+index 4f0a15f..a450127 100644
+--- a/money-guide.html
++++ b/money-guide.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="The ultimate Mon Bazou Money Guide (2025). Learn the best ways to make money, from selling pine logs to managing a massive maple syrup empire.">
+@@ -217,6 +218,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -402,3 +404,4 @@
+ </html>
+ 
+ ```
++
+diff --git a/npc-friendship-guide.html b/npc-friendship-guide.html
+index 2865830..bfeb6ad 100644
+--- a/npc-friendship-guide.html
++++ b/npc-friendship-guide.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Mon Bazou NPC Friendship Guide 2025. Learn the best gifts for Leo, Gilles, and Jacques to unlock the Race Track Key, Bolt Cutters, and Car Crusher.">
+@@ -85,6 +86,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -193,3 +195,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/oltruck-guide.html b/oltruck-guide.html
+index 6fd6570..fe51457 100644
+--- a/oltruck-guide.html
++++ b/oltruck-guide.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="How to fix the OlTruck in Mon Bazou. Complete parts list for repair (Calipers, Starter) and best upgrades for hauling wood and syrup.">
+@@ -85,6 +86,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -155,3 +157,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/phone-numbers.html b/phone-numbers.html
+index 9095dd3..f675625 100644
+--- a/phone-numbers.html
++++ b/phone-numbers.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Complete Mon Bazou Phone Directory and Shop Opening Hours. Find numbers for Hydro, Mom, and check when Kali-Gas or the Parts Store is open.">
+@@ -108,6 +109,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -248,3 +250,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/power-grid.html b/power-grid.html
+index df5cc00..2979155 100644
+--- a/power-grid.html
++++ b/power-grid.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Mon Bazou Power Grid Guide 2025. Step-by-step instructions to install electricity, wiring diagrams, costs ($2,500 fee), and parts list for the Hardware Store.">
+@@ -118,6 +119,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -242,3 +244,4 @@
+ 
+ </body>
+ </html>
++
+diff --git a/sw.js b/sw.js
+index ca6ea19..0fc7b04 100644
+--- a/sw.js
++++ b/sw.js
+@@ -1,6 +1,6 @@
+ self.options = {
+-    "domain": "3nbf4.com",
+-    "zoneId": 10773703
++    "domain": "5gvci.com",
++    "zoneId": 10773717
+ }
+ self.lary = ""
+-importScripts('https://3nbf4.com/act/files/service-worker.min.js?r=sw')
++importScripts('https://5gvci.com/act/files/service-worker.min.js?r=sw')
+diff --git a/syrup-guide.html b/syrup-guide.html
+index cdbe0b3..38d09d0 100644
+--- a/syrup-guide.html
++++ b/syrup-guide.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Ultimate Mon Bazou Sugar Shack Guide. How to set up sap tubing, use the Reverse Osmosis machine, and automate your maple syrup production.">
+@@ -86,6 +87,7 @@
+ <body>
+ 
+     <header>
++    <script src="https://quge5.com/88/tag.min.js" data-zone="222749" async data-cfasync="false"></script>
+         <div class="container nav-flex">
+             <a href="index.html" class="logo">MON BAZOU HANDBOOK</a>
+             <nav class="nav-links">
+@@ -180,3 +182,4 @@
+ 
+ </body>
+ </html>
++
